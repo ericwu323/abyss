@@ -1,0 +1,1 @@
+text = "Objects with arrows can be interacted \n by pressing E"
