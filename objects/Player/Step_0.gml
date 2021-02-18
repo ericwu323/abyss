@@ -9,10 +9,11 @@ switch (state)
 {
 	case PLAYERSTATE.FREE: PlayerState_Free(); break;
 	case PLAYERSTATE.ATTACK: PlayerState_Attack(); break;
+	case PLAYERSTATE.DEAD: PlayerState_Dead(); break;
 	case PLAYERSTATE.INTERACT: PlayerState_Attack(); break;
 }
 
-
+if(invuln > 0) invuln--;
 
 //Attack
 /*key_attack = keyboard_check(ord("J"));

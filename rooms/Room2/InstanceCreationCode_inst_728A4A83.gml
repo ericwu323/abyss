@@ -1,1 +1,0 @@
-text = "Interacting with a campfire sets\n a spawnpoint"

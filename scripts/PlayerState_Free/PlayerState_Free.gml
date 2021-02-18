@@ -54,5 +54,7 @@ function PlayerState_Free(){
 	if(hsp!=0) image_xscale = sign(hsp);
 	if(image_xscale < 0) faceRight = false;
 	else faceRight = true;
+	if(global.PlayerHealth <= 0) state = PLAYERSTATE.DEAD;
 	if(keyAttack && vsp == 0) state = PLAYERSTATE.ATTACK;
+	
 }

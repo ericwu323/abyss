@@ -27,7 +27,10 @@ if(done ==0)
 	y = y +vsp;
 
 }
-if(image_index==6){
+/*if(image_index==6){
 	image_speed = 0;
+	instance_destroy();
+}*/
+if(animation_end()){
 	instance_destroy();
 }

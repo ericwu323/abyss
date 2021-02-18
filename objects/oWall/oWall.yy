@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite8",
-    "path": "sprites/Sprite8/Sprite8.yy",
+    "name": "soWall",
+    "path": "sprites/soWall/soWall.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oWall","path":"objects/oWall/oWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":69,"eventType":9,"collisionObjectId":null,"parent":{"name":"oWall","path":"objects/oWall/oWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
