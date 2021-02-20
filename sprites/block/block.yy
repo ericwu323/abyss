@@ -26,7 +26,6 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"f2dd68dd-bf97-4cd7-b455-080d7cb7e88a","path":"sprites/block/block.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"f2dd68dd-bf97-4cd7-b455-080d7cb7e88a","path":"sprites/block/block.yy",},"LayerId":{"name":"9cac23f9-28a1-4414-9d4c-2c8633afa09c","path":"sprites/block/block.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"f2dd68dd-bf97-4cd7-b455-080d7cb7e88a","path":"sprites/block/block.yy",},"LayerId":{"name":"ed865df4-6a86-4206-83f6-ba1e50ec12c8","path":"sprites/block/block.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"block","path":"sprites/block/block.yy",},"resourceVersion":"1.0","name":"f2dd68dd-bf97-4cd7-b455-080d7cb7e88a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

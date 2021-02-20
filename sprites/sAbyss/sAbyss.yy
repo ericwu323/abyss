@@ -96,8 +96,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0c839bc3-9b63-4738-ade2-6b837117d938","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "interactables",
+    "path": "folders/Sprites/interactables.yy",
   },
   "resourceVersion": "1.0",
   "name": "sAbyss",

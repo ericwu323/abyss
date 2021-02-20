@@ -9,5 +9,5 @@ if(hp<= 0)
 			vsp = lengthdir_y(-3,direction) -5;
 			image_xscale = sign(hsp);
 		}
-		instance_destroy();
+		instance_destroy(); 
 	}

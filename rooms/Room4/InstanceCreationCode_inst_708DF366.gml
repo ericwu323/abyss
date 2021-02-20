@@ -1,1 +1,1 @@
-text = "Press E to enter the Abyss"
+text = "Press Enter to jump into the Abyss"

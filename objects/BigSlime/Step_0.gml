@@ -53,7 +53,7 @@ if(!attacking){
 		}
 	}*/
 	}
-	if(collision_circle(x,y,20,Player,false,true)){
+	if(collision_circle(x,y,50,Player,false,true)){
 		faceRight = sign(hsp);
 		chsp = hsp;
 		attacking = true;

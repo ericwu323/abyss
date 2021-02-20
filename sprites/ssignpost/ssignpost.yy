@@ -147,8 +147,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"53cf48b6-3138-4ad8-a1db-3d46b7a0c5f7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "interactables",
+    "path": "folders/Sprites/interactables.yy",
   },
   "resourceVersion": "1.0",
   "name": "ssignpost",

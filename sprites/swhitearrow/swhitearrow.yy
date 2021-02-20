@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a69ff553-c229-4ac9-a82d-aef8e63e030c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "interactables",
+    "path": "folders/Sprites/interactables.yy",
   },
   "resourceVersion": "1.0",
   "name": "swhitearrow",

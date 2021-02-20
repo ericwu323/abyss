@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"161a8a10-9a4b-42e1-9afe-1fafa70f22cc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "interactables",
+    "path": "folders/Sprites/interactables.yy",
   },
   "resourceVersion": "1.0",
   "name": "popup",

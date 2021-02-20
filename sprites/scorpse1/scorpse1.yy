@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ade4cb54-534d-47a5-be74-3589edf679a9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "interactables",
+    "path": "folders/Sprites/interactables.yy",
   },
   "resourceVersion": "1.0",
   "name": "scorpse1",

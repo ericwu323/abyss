@@ -7,3 +7,4 @@ popup_id = instance_create_layer(x-17,y-80, layer, obj_arrow);
 radius = 60;
 has_been_interacted = false;
 popup_id.visible = false;
+//text = "Press E to enter the Abyss";

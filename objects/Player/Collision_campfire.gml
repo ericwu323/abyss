@@ -1,6 +1,6 @@
  /// @description Insert description here
 // You can write your code in this editor
-if(file_exists(SAVEFILE)) file_delete(SAVEFILE);
+/*if(file_exists(SAVEFILE)) file_delete(SAVEFILE);
 
 var file;
 file = file_text_open_write(SAVEFILE);
