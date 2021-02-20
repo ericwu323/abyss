@@ -61,10 +61,8 @@ if(!attacking){
 if(attacking){ 
 	hsp = 0;
 	sprite_index = ssmallattack;
-	if(image_index > 7){
-		if(faceRight == true){
-			instance_create_depth(Slime.x, Slime.y, depth-1, BounceAttackHB);
-		}
+	if(image_index > 7){	
+		instance_create_depth(Slime.x, Slime.y, depth-1, BounceAttackHB);
 	}
 
 	if(animation_end()){

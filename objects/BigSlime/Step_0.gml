@@ -64,12 +64,7 @@ if(attacking){
 	hsp = 0;
 	sprite_index = sbigattack;
 	if(image_index > 7){
-		if(faceRight == true){
-			instance_create_depth(BigSlime.x, BigSlime.y, depth-1, bigBounceAttackHB);
-		}
-		else{
-			instance_create_depth(BigSlime.x, BigSlime.y, depth-1, bigBounceAttackHB);
-		} 
+			instance_create_depth(BigSlime.x, BigSlime.y, depth-1, bigBounceAttackHB);	
 	}
  
 
