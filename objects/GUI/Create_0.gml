@@ -4,3 +4,4 @@
 global.PlayerHealthMax = 10;
 //globalvar PlayerHealth; 
 global.PlayerHealth = 10;
+global.Coins = 0;

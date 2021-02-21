@@ -1,3 +1,17 @@
+/// @description Insert description here
+// You can write your code in this editor
+if(circle){
+	if(collision_circle(x,y,25,Player,false,true)){
+		sprite_index = scoinspickup;
+		circle = false;
+	}
+}
+if(!circle){
+	if(animation_end()){
+		instance_destroy();
+		global.Coins++;
+	}
+}
 if(done ==0)
 {
 	image_speed = 0.1;
@@ -25,13 +39,4 @@ if(done ==0)
 		vsp = 0;
 	}
 	y = y +vsp;
-
-}
-/*if(image_index==6){
-	image_speed = 0;
-	instance_destroy();
-}*/
-if(animation_end()){
-	instance_destroy();
-	instance_create_layer(x-28,y+30,layer,coin);
 }

@@ -18,6 +18,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":96.0,"resourceVersion":"1.0","name":"inst_5FCDFF0E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"RoomTrigger","path":"objects/RoomTrigger/RoomTrigger.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":5.5,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":2304.0,"resourceVersion":"1.0","name":"inst_31127E63","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"RoomTrigger","path":"objects/RoomTrigger/RoomTrigger.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":3.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-64.0,"y":1984.0,"resourceVersion":"1.0","name":"inst_7BDDF1F8","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"RoomTrigger","path":"objects/RoomTrigger/RoomTrigger.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1344.0,"y":1888.0,"resourceVersion":"1.0","name":"inst_5DB7B67C","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"char","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oSignpost","path":"objects/oSignpost/oSignpost.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":2080.0,"resourceVersion":"1.0","name":"inst_5FFD64C9","tags":[],"resourceType":"GMRInstance",},
@@ -1078,6 +1079,7 @@
     {"name":"inst_50FC04AC","path":"rooms/Room5/Room5.yy",},
     {"name":"inst_31127E63","path":"rooms/Room5/Room5.yy",},
     {"name":"inst_7BDDF1F8","path":"rooms/Room5/Room5.yy",},
+    {"name":"inst_5DB7B67C","path":"rooms/Room5/Room5.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
