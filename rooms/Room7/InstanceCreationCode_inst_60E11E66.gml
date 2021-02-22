@@ -1,0 +1,1 @@
+text = "Buy beer? \n consume to double attack for 5 minutes \n price: 1 coin \n Press E to buy";
