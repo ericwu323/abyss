@@ -8,7 +8,13 @@ if(instance_exists(oText) && collision_circle(x,y,radius,Player,false,true) && h
 }
 if(instance_exists(oText) && collision_circle(x,y,radius,Player,false,true) && has_been_interacted && global.Coins > 5){
 	global.Coins = global.Coins - 5;
-	array_push(global.items,oapplepie); 
+	//global.PlayerAttack += 1.5;
+	
+	array_push(global.items,sApplepie);
+	array_push(global.useableitems,useableapplepie);
+	global.items[array_length(global.items)-1];
+	arrayposition = array_length(global.items)-1;
+	
 	instance_destroy();
 }
 

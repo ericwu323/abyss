@@ -1,0 +1,1 @@
+text = "Press i to open item selector. \n Use left and right arrow keys to select desired item \n and press Enter to use selected item"; 

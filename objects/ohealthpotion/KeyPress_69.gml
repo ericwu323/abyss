@@ -9,7 +9,10 @@ if(instance_exists(oText) && collision_circle(x,y,radius,Player,false,true) && h
 
 if(instance_exists(oText) && collision_circle(x,y,radius,Player,false,true) && has_been_interacted && global.Coins > 0){
 	global.Coins = global.Coins - 1;
-    array_push(global.items,ohealthpotion); 
+    array_push(global.items,healthpotion); 
+	array_push(global.useableitems,useablehealthpotion);
+	global.items[array_length(global.items)-1];
+	arrayposition = array_length(global.items)-1;
 	instance_destroy();
 }
 

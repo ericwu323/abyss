@@ -1,2 +1,2 @@
-target = Room5;
+target = Room5b;
 death = true;

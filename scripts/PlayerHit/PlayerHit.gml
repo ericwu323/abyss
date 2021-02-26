@@ -3,4 +3,5 @@
 function PlayerHit(_damage){
 	global.PlayerHealth -= _damage;
 	flash = 3;
+	Player.invuln = 100;
 }

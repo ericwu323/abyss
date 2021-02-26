@@ -4,13 +4,22 @@ var _playerHealth = global.PlayerHealth;
 var _playerHealthMax = global.PlayerHealthMax;
 var _coins = global.Coins;
 var _coincount = ("x" + string(_coins));
+
 var _items = global.items;
 var length = array_length(_items);
 
 for(var a = 0; a < length; a++){
-	instance_create_layer(63+a*32,100,layer,_items[a]);
+	//room_instance_add(Room5c,window_get_x(),window_get_y(),_items[a]);
+	draw_sprite(_items[a],0,63+a*32,100);
+	
+	//instance_create_layer(oCamera.x,100,layer,_items[a]);
+	
 	//draw_text(63+a*32,130,_items[a]);
+	
+	
 }
+
+
 
 //var _playerHealthFrac = frac(_playerHealth);
 

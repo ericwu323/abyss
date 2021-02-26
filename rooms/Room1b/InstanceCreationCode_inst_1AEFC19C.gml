@@ -1,0 +1,1 @@
+text = "Press J to attack";

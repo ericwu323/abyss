@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function EnemyHit(_damage){
 	//var _damage= argument0;
-	hp -= _damage;
+	hp -= _damage*global.PlayerAttack;
 	flash = 3;
 	
 }              

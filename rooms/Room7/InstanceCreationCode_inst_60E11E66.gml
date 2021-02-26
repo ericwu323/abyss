@@ -1,1 +1,2 @@
-text = "Buy beer? \n consume to double attack for 5 minutes \n price: 1 coin \n Press E to buy";
+text = "Buy beer? \n consume to restore all hearts \n price: 1 coin \n Press E to buy";
+clickable = false;

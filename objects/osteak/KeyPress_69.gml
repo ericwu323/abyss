@@ -8,7 +8,12 @@ if(instance_exists(oText) && collision_circle(x,y,radius,Player,false,true) && h
 }
 if(instance_exists(oText) && collision_circle(x,y,radius,Player,false,true) && has_been_interacted && global.Coins > 5){
 	global.Coins = global.Coins - 5;
-	array_push(global.items,osteak); 
+	//global.PlayerHealthMax += 2;
+	//global.PlayerHealth += 2;
+	array_push(global.items,ssteak); 
+	array_push(global.useableitems,useablesteak);
+	global.items[array_length(global.items)-1];
+	arrayposition = array_length(global.items)-1;
 	instance_destroy();
 }
 if(!has_been_interacted){
