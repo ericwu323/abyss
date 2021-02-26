@@ -3,7 +3,7 @@
 if(use){
 	
 	global.PlayerHealth += 4;
-	if(global.PlayerHealth > global.PlayerHealthMax){
+	if(global.PlayerHealth > global.PlayerHealthMax)
 		global.PlayerHealth = global.PlayerHealthMax;
 	with(Inventory){
 		array_delete(global.useableitems,a,1);
