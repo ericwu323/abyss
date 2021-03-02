@@ -33,5 +33,5 @@ if(done ==0)
 }*/
 if(animation_end()){
 	instance_destroy();
-	instance_create_layer(x-28,y+30,layer,coin);
+	instance_create_layer(x,y,layer,coin);
 }

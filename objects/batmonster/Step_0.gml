@@ -19,7 +19,7 @@ if(!attacking){
 	} 
 	x = x +hsp;
 
-	if(place_meeting(x,y+vsp+height,oWall))
+	/*if(place_meeting(x,y+vsp+height,oWall))
 	{
 		
 		while (!place_meeting(x,y+height+sign(vsp),oWall))
@@ -28,7 +28,7 @@ if(!attacking){
 		}
 		vsp = 0;
 	}
-	y = y +vsp;
+	y = y +vsp;*/
 	if(hsp!=0) image_xscale = sign(hsp);
 
 	//Animation

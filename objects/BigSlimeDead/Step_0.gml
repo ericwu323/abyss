@@ -31,7 +31,7 @@ if(done ==0)
 }
 if(animation_end()){
 	instance_destroy();
-	with(instance_create_layer(x,y+30,layer,coin))
+	with(instance_create_layer(x,y,layer,coin))
 		hsp =3;
-	instance_create_layer(x,y+30,layer,coin);
+	instance_create_layer(x,y,layer,coin);
 }
