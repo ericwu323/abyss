@@ -3,17 +3,29 @@
 function PlayerState_Attack(){
 	//hsp = 0;
 	
-	if(sprite_index != pAttack)
+	if(sprite_index != pAttack && attack == 1)
 	{
 		sprite_index = pAttack;
+		
 		image_index = 0;
 		ds_list_clear(hitByAttack);
 	}
+	if(sprite_index != pAttack2 && attack == 2){
+		sprite_index = pAttack2;
+		image_index = 0;
+	}
+	
 	alarm_set(0,2);
 	alarm_set(2,3);
 	if(global.PlayerHealth <= 0) state = PLAYERSTATE.DEAD;
 	if(animation_end())
 	{
+		if(attack == 1){
+			attack = 2;
+		}
+		else{
+			attack = 1;
+		}
 		sprite_index = pIdle;
 		state = PLAYERSTATE.FREE;
 	}

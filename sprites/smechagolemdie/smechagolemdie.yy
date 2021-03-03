@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 4,
+  "origin": 9,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -36,6 +36,9 @@
     {"compositeImage":{"FrameId":{"name":"f5464f8a-6739-4fa5-9e5f-c21153815244","path":"sprites/smechagolemdie/smechagolemdie.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"f5464f8a-6739-4fa5-9e5f-c21153815244","path":"sprites/smechagolemdie/smechagolemdie.yy",},"LayerId":{"name":"f7185605-92d1-45da-b1e9-30611c8c3d0b","path":"sprites/smechagolemdie/smechagolemdie.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"smechagolemdie","path":"sprites/smechagolemdie/smechagolemdie.yy",},"resourceVersion":"1.0","name":"f5464f8a-6739-4fa5-9e5f-c21153815244","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0f54a20c-a3a2-445e-a3af-987b0e5fe57b","path":"sprites/smechagolemdie/smechagolemdie.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0f54a20c-a3a2-445e-a3af-987b0e5fe57b","path":"sprites/smechagolemdie/smechagolemdie.yy",},"LayerId":{"name":"f7185605-92d1-45da-b1e9-30611c8c3d0b","path":"sprites/smechagolemdie/smechagolemdie.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"smechagolemdie","path":"sprites/smechagolemdie/smechagolemdie.yy",},"resourceVersion":"1.0","name":"0f54a20c-a3a2-445e-a3af-987b0e5fe57b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"smechagolemdie","path":"sprites/smechagolemdie/smechagolemdie.yy",},
@@ -45,7 +48,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 4.0,
+    "length": 5.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -54,6 +57,7 @@
             {"id":"9050b3a9-929f-4524-bcd9-04c606ee2a57","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"780ee95b-5857-4b4d-a0de-c3d351d79538","path":"sprites/smechagolemdie/smechagolemdie.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cd50e6cf-97b7-4285-94d2-9488a285b3c6","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bd7e8bf9-e7ca-4828-abf3-241b49c1b04e","path":"sprites/smechagolemdie/smechagolemdie.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e4452862-de64-4481-a431-4fc31b5db4e8","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f5464f8a-6739-4fa5-9e5f-c21153815244","path":"sprites/smechagolemdie/smechagolemdie.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"898e1e11-8746-4cde-8e92-32bf96ece655","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f54a20c-a3a2-445e-a3af-987b0e5fe57b","path":"sprites/smechagolemdie/smechagolemdie.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -66,8 +70,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 200,
-    "yorigin": 200,
+    "xorigin": 202,
+    "yorigin": 282,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"smechagolemdie","path":"sprites/smechagolemdie/smechagolemdie.yy",},

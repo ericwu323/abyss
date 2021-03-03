@@ -51,10 +51,12 @@ function PlayerState_Free(){
 			sprite_index = pRun;
 		}
 	}
+	
 	if(hsp!=0) image_xscale = sign(hsp);
 	if(image_xscale < 0) faceRight = false;
 	else faceRight = true;
 	if(global.PlayerHealth <= 0) state = PLAYERSTATE.DEAD;
+	if(key_crouch && place_meeting(x,y+1,oWall)) state = PLAYERSTATE.CROUCH;
 	if(keyAttack && vsp == 0) state = PLAYERSTATE.ATTACK;
 	
 }

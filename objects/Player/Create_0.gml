@@ -7,14 +7,16 @@ invuln = 0;
 faceRight = true;
 state = PLAYERSTATE.FREE;
 hitByAttack = ds_list_create();
-
+attack = 1;
+image_speed = 0.1;
 
 enum PLAYERSTATE
 {
 	FREE,
 	ATTACK,
 	DEAD,
-	INTERACT
+	INTERACT,
+	CROUCH
 	
 }
 //downtime = 0;
