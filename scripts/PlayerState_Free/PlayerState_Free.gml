@@ -18,6 +18,7 @@ function PlayerState_Free(){
 		hsp = 0;
 	}
 	x = x +hsp;
+	
 
 	if(place_meeting(x,y+vsp,oWall))
 	{

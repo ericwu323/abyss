@@ -10,7 +10,7 @@ function MechaState_Die(){
 		image_speed = 0;
 		with(instance_create_layer(x,y,layer,coin))
 			hsp =3;
-		instance_create_layer(x,y,layer,coin);
+		instance_create_layer(x,y,layer,okey);
 		with(instance_create_layer(x,y,layer,coin))
 			hsp =-3;
 		instance_create_layer(x,y,layer,coin);

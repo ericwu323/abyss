@@ -11,13 +11,19 @@ if(!attacking){
 }
 if(attacking){ 
 	if(playerRight == true){
-		sprite_index = schompright;
+		if(sprite_index != schompright){
+			sprite_index = schompright;
+			image_index = 0;
+		}
 		if(image_index > 4){
 			instance_create_depth(x+72,y-50, depth-1, chompHB);
 		}
 	}
 	if(playerRight == false){
-		sprite_index = schompleft;
+		if(sprite_index != schompleft){
+			sprite_index = schompleft;
+			image_index = 0;
+		}
 		if(image_index > 4){
 			instance_create_depth(x-72, y-50, depth-1, chompHB);
 		} 

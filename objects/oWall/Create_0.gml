@@ -2,3 +2,4 @@
 // You can write your code in this editor
 Abyssblock = false;
 Abyssready = false;
+lockedwall = false;
