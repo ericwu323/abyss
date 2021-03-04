@@ -170,6 +170,7 @@
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},"order":4,},
     {"id":{"name":"pJump","path":"sprites/pJump/pJump.yy",},"order":3,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
+    {"id":{"name":"pAttack3","path":"sprites/pAttack3/pAttack3.yy",},"order":8,},
     {"id":{"name":"useablesteak","path":"objects/useablesteak/useablesteak.yy",},"order":9,},
     {"id":{"name":"pCrouch","path":"sprites/pCrouch/pCrouch.yy",},"order":1,},
     {"id":{"name":"swhitearrow2","path":"sprites/swhitearrow2/swhitearrow2.yy",},"order":9,},

@@ -1,0 +1,1 @@
+text = "Dead man's diary: \n \n Day 57: Where could she have gone?  \n I'm missing something. \n I must continue searching...";  

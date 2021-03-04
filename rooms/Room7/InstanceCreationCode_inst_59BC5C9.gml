@@ -1,0 +1,1 @@
+text = "Dead man's diary: \n \n Day 95: Legend says a remnant of an \n advanced civilization lives in these caves. \n I wonder if its friendly...";

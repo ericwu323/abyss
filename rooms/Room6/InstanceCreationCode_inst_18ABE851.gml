@@ -1,0 +1,1 @@
+text = "Dead man's diary: \n \n Day 34: Ever since eating Jim's apple pie, \n I've been feeling extra invigorated! \n I wonder what he puts in that stuff...";
