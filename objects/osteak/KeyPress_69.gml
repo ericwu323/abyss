@@ -6,7 +6,7 @@ if(instance_exists(oText) && collision_circle(x,y,radius,Player,false,true) && h
 	length = string_length(text);
 		
 }
-if(instance_exists(oText) && collision_circle(x,y,radius,Player,false,true) && has_been_interacted && global.Coins > 5){
+if(instance_exists(oText) && collision_circle(x,y,radius,Player,false,true) && has_been_interacted && global.Coins >= 5){
 	global.Coins = global.Coins - 5;
 	//global.PlayerHealthMax += 2;
 	//global.PlayerHealth += 2;
