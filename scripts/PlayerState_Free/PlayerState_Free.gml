@@ -19,20 +19,10 @@ function PlayerState_Free(){
 	}
 	x = x +hsp;
 	
-
-	if(place_meeting(x,y+vsp,oWall))
-	{
-		while (!place_meeting(x,y+sign(vsp),oWall))
-		{
-			y = y+sign(vsp);
-		}
-		vsp = 0;
-	}
-	y = y +vsp;
-
 	//Animation
 	if(!place_meeting(x,y+1,oWall))
 	{
+		
 		image_speed = 0.1;
 		sprite_index = pJump;
 		if(image_index == 2){
@@ -52,6 +42,19 @@ function PlayerState_Free(){
 			sprite_index = pRun;
 		}
 	}
+	//animation over
+	
+	if(place_meeting(x,y+vsp,oWall))
+	{
+		while (!place_meeting(x,y+sign(vsp),oWall))
+		{
+			y = y+sign(vsp);
+		}
+		vsp = 0;
+	}
+	y = y +vsp;
+
+	
 	
 	if(hsp!=0) image_xscale = sign(hsp);
 	if(image_xscale < 0) faceRight = false;
@@ -59,5 +62,5 @@ function PlayerState_Free(){
 	if(global.PlayerHealth <= 0) state = PLAYERSTATE.DEAD;
 	if(key_crouch && place_meeting(x,y+1,oWall)) state = PLAYERSTATE.CROUCH;
 	if(keyAttack && vsp == 0) state = PLAYERSTATE.ATTACK;
-	
+	else if(keyAttack && vsp != 0) state = PLAYERSTATE.JATTACK;
 }

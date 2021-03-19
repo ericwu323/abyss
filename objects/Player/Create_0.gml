@@ -15,8 +15,9 @@ enum PLAYERSTATE
 	FREE,
 	ATTACK,
 	DEAD,
+	JATTACK,
 	INTERACT,
 	CROUCH
-	
+
 }
 //downtime = 0;

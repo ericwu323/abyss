@@ -10,6 +10,7 @@ switch (state)
 	case PLAYERSTATE.FREE: PlayerState_Free(); break;
 	case PLAYERSTATE.CROUCH: PlayerState_Crouch(); break;
 	case PLAYERSTATE.ATTACK: PlayerState_Attack(); break;
+	case PLAYERSTATE.JATTACK: PlayerState_Jattack(); break;
 	case PLAYERSTATE.DEAD: PlayerState_Dead(); break;
 	case PLAYERSTATE.INTERACT: PlayerState_Attack(); break;
 }

@@ -9,5 +9,13 @@ if(!has_been_interacted){
 			length = string_length(text);
 		}
 	}
+	//popup_id.visible = false;
+}
+if(instance_exists(oText)){
 	popup_id.visible = false;
+}
+if(has_been_interacted && !instance_exists(oText)){
+	has_been_interacted = false;
+	
+	popup_id.visible = true;
 }
