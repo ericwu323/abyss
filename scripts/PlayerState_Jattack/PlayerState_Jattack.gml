@@ -34,11 +34,11 @@ function PlayerState_Jattack(){
 		}
 		vsp = 0;
 	}
-	if(sprite_index == pAirAttackrdy){
+	if(sprite_index == pAirAttackrdy && !place_meeting(x,y+sign(vsp),oWall)){
 		y = y - 3 ;
 	}
 	if(sprite_index == pAirAttackmid){
-		y = y + 3;
+		y = y + 5;
 	}
 	y = y +vsp;
 	
